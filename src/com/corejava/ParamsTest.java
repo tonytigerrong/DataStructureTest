@@ -28,7 +28,10 @@ public class ParamsTest {
 		System.out.println("ps_copy2 is:"+ps_copy2.i);
 		ps_copy.i = 2;
 		System.out.println("ps is:"+ps.i);
-		
+		System.out.println("ps refer address should be same as ps_copy and ps_copy2");
+		System.out.println("ps refer address" + ps + "\r\n"+
+				           "ps_copy refer address"+ ps_copy+"\r\n"+
+				           "ps_copy2 refer address"+ ps_copy2);
 		/**
 		 * 
 		 */

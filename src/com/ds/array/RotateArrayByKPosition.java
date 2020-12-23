@@ -2,6 +2,10 @@ package com.ds.array;
 
 import java.util.Arrays;
 
+/**
+ * we see an array as a circle, connect 1st and last element
+ * rotate the array
+ */
 public class RotateArrayByKPosition {
 
 	public static void main(String[] args){

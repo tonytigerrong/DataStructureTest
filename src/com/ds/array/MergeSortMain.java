@@ -4,6 +4,8 @@ public class MergeSortMain {
 	 
 	/*
 	 * @author: Arpit Mandliya
+	 * Sort an array by merge sort algorithm ( divide and conquer)
+	 * https://www.baeldung.com/java-merge-sort
 	 */
 	static  int  arr[]={100,20,15,30,5,75,40};
  

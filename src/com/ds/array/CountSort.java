@@ -2,6 +2,12 @@ package com.ds.array;
 
 import java.util.Arrays;
 
+/**
+ * Counting sort
+ * https://www.baeldung.com/java-counting-sort
+ * it assumes that the input elements are n integers in the range [0, k].
+ * when the input is aligned with this assumption, it's pretty fast
+ */
 public class CountSort {
 	
 	private static int[]  countsort(int[] arr) {

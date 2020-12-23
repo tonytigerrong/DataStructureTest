@@ -1,9 +1,14 @@
 package com.ds.array;
 
+
+import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
- 
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class SlidingWindowMax {
  
 	static int[] sarr;
@@ -32,6 +37,8 @@ public class SlidingWindowMax {
 			arr[i] = ThreadLocalRandom.current().nextInt(0,10);
 			i++;
 		}
+		List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
+		list.stream().forEach(System.out::print);
 		solveEfficient(arr, 3);
  
 	}
